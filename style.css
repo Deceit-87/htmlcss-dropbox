@@ -5,6 +5,10 @@
    
 }
 
+.debug [class^="col"]{
+/* border: 2px solid rebeccapurple; */
+/* padding: 10px; */
+}
 html{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -16,7 +20,7 @@ img{
 }
 
 a{
-    display: inline-block;
+    display: inline-block; 
     text-decoration: none;
     color: currentColor;
 }
@@ -60,12 +64,12 @@ float: right;
 
 
 .section{
-    padding; 0 15px;
+    padding: 0 15px;
 }
 
           /* CONTAINER */
 
-.comntainer{
+.container{
     max-width:970px;
     margin: 0 auto;
 
@@ -103,7 +107,7 @@ header li a{
 .logo-small {
     display: block;
 }
-
+ /* UTILIETIES */
 .button{
      background-color: #0061ff;
      color:white ;
@@ -112,7 +116,9 @@ header li a{
      text-align: center;
      line-height: 32px;
 }
-
+.full-width {
+    width: 100%;
+}
 
      /* JUMBO  */
     #jumbo {
@@ -142,4 +148,82 @@ header li a{
 
    .jumbo-img-wrappe{
        padding-left: 25px;
+   }
+
+
+   /* PIANO D'ACQUISTO   */
+
+   .plan{
+       border: 1px solid lightgray;
+       margin-bottom: 40px;
+   }
+
+   .plan__header{
+       border-bottom:1px solid lightgray ;
+       text-align: center;
+       padding: 10px;
+   }
+
+   .plan__body ,.plan__footer{
+
+    padding: 18px;
+   }
+
+   .plan__body .plan-title{
+       font-size: 28px;
+       margin-bottom: 15px;
+   }
+
+   .plan__body .plan-price {
+       font-weight: 700;
+       margin-bottom: 5px;
+   }
+
+   .plan__body .bill-rate{
+       font-size: 14px;
+       color:#888 ;
+   }
+
+   .plan .plan-feature {
+       padding: 25px 0;
+   }
+
+   .plan .plan-feature li{
+       margin-bottom: 15px;
+       font-size: 13px;
+   }
+   .plan .plan-feature li:last-child{
+       margin-bottom: 0;
+   }
+
+   .plan__body .plan-cta .button{
+       margin-bottom: 20px;
+
+   }
+   .plan__body .plan-cta .shop-now {
+       color: #0061ff;
+   }
+   .plan__body .plan-cta  {
+       font-size: 14px;
+   }
+
+   .plan__body::after{
+       content: "";
+       display:block;
+       height: 1px;
+       width: 29px;
+       background-color: lightgray;
+       margin-top: 25px;
+   }
+
+   .plan__footer .plan-feature i{
+       color:#0061ff ;
+   }
+
+   #plans-section .row [class^="col"]{
+       padding:0 20px;
+   }
+
+   #plans-section .row{
+       margin: 0 -20px;
    }
