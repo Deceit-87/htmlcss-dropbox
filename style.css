@@ -199,7 +199,7 @@ header li a{
     padding: 18px;
    }
 
-   .plan__body .plan-title ,#contact_partner .plan-title{
+.mid-title{
        font-size: 26px;
        margin-bottom: 15px;
    }
@@ -250,11 +250,11 @@ header li a{
        color:#0061ff ;
    }
 
-   #plans-section .row [class^="col"]{
+   #plans-section .row [class^="col"], #tools_section .row [class^="col"]{
        padding:0 20px;
    }
 
-   #plans-section .row{
+   #plans-section .row, #tools_section .row{
        margin: 0 -20px;
    }
 
@@ -262,19 +262,36 @@ header li a{
      display: block;
      content:none; }
 
-     .landscape-description {
+     * p{
          padding:30px 0;
      }
 
 
      /* PARTNER SECTION  */
 #contact_partner{
-    padding:150px 0;
+    padding:150px 0 120px 0;
 }
      .partner_container{
          padding:45px 0 0 50px;
      }
 
 
+#contact_partner .partner_container .button{
+background-color: white;
+color: black;
+border: 1px solid black;
+margin:30px 0;
+}
 
 
+
+      /* TOOLS SECTION  */
+
+
+#tools_section .main-plans-title{
+    padding:0 0 60px 0  ;
+}
+
+#tools_section .container .row:last-child{
+    padding: 130px 0 200px 0;
+}
