@@ -57,7 +57,9 @@ float: right;
     width: 33.33% ;
 
 }
-
+.col-6{
+    width: 50%;
+}
 .col-8{
     width:66.66%;
 }
@@ -146,13 +148,41 @@ header li a{
        font-size: 35px;
    }
 
-   .jumbo-img-wrappe{
+   .jumbo-img-wrapper{
        padding-left: 25px;
+       margin-bottom: -60px;
    }
 
 
    /* PIANO D'ACQUISTO   */
 
+
+
+   .main-plans-title{
+       font-size: 30px;
+       padding-top: 210px;
+       padding-bottom: 66px;
+   }
+
+
+
+   .plans-choice{
+       display: inline-block;
+       text-align: middle;
+       padding: 0 20px 40px 0;
+   }
+   .ratio{
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    padding: 7px;
+    font-size: 1px;
+    vertical-align: middle;
+    margin-right: 7px;
+   }
+   .ratio.blue {
+       border:5px solid #0061ff;
+       padding: 4px;
+   }
    .plan{
        border: 1px solid lightgray;
        margin-bottom: 40px;
@@ -169,8 +199,8 @@ header li a{
     padding: 18px;
    }
 
-   .plan__body .plan-title{
-       font-size: 28px;
+   .plan__body .plan-title ,#contact_partner .plan-title{
+       font-size: 26px;
        margin-bottom: 15px;
    }
 
@@ -227,3 +257,24 @@ header li a{
    #plans-section .row{
        margin: 0 -20px;
    }
+
+ .plan-body-big::after{
+     display: block;
+     content:none; }
+
+     .landscape-description {
+         padding:30px 0;
+     }
+
+
+     /* PARTNER SECTION  */
+#contact_partner{
+    padding:150px 0;
+}
+     .partner_container{
+         padding:45px 0 0 50px;
+     }
+
+
+
+
