@@ -109,6 +109,11 @@ header li a{
 .logo-small {
     display: block;
 }
+.main-plans-title{
+        font-size: 33px;
+       
+    }
+
  /* UTILIETIES */
 .button{
      background-color: #0061ff;
@@ -158,8 +163,8 @@ header li a{
 
 
 
-   .main-plans-title{
-       font-size: 30px;
+   #plans-section .container .main-plans-title{
+       font-size: 33px;
        padding-top: 210px;
        padding-bottom: 66px;
    }
@@ -295,3 +300,115 @@ margin:30px 0;
 #tools_section .container .row:last-child{
     padding: 130px 0 200px 0;
 }
+
+        /* COMPANY SECTION  */
+
+
+#company-section .main-plans-title{
+    padding-bottom: 20px;
+}
+
+#company-section .col-6 a{
+    color: #0061ff;
+    padding:20px 0;
+    text-decoration: underline;
+    margin-bottom: 50px;
+
+}
+
+
+        /* SVG COMPANY  */
+
+.center svg{
+    fill: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+    .svg-container{
+        float: left;
+        font-size: 0;
+        display: inline-block;
+        width:50% ;
+        aspect-ratio: 1/1;
+        position: relative;
+    }
+
+    .designit {
+        border: 10px solid #D0E9CD;
+        background-color: #A2D39B;
+    }
+
+    .arizona {
+        background-color: #61082B;
+    }
+
+    .world-bicycle{
+        background-color: #D5011F;
+    }
+
+    .hearst {
+        fill: white;
+        background-color:#B4D0E7 ;
+    }
+
+    .florida{
+      background-color: #0193CE;
+    }
+    
+    .topps{
+        fill: white;
+        background-color: #FF1C1C;
+    }
+
+    .lonely {
+        fill: white;
+        background-color:#0D2481 ;
+    }
+
+    .channel {
+        fill: white;
+        background-color:#FFD830 ;
+    }
+.svg-description{
+    float: left;
+    width: 40%;
+    position: relative;
+    float: left;
+    padding: 0 50px 60px;
+    background-color:#F5F5F5 ;
+}
+
+    .svg-description svg{
+        fill: black;
+     
+    }
+
+    .svg-description-container:after{
+
+        content: "";
+       display:block;
+       height: 1px;
+       width: 29px;
+       background-color:#DEDEE0;
+    }
+
+    .svg-description-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .col-sx ,.col-dx {
+        width: 30%;
+        float: left;
+    }
+
+
+    /* FOOTER COMPANY  */
+
+    #company-section .col-12:last-child{
+        background-color:#B4D0E7 ;
+        height: 500px;
+        margin-top: -5px;
+    }
